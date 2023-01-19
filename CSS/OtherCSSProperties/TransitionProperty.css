@@ -1,0 +1,40 @@
+div{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    transition: background-color 2s, border-radius 3s;
+}
+
+.circle:hover {
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+
+section div {
+background-color: darkcyan;
+width: 30px;
+height: 30px;
+margin: 20px 0px;
+transition: margin-left 3s;
+}
+
+section:hover div{
+    margin-left: 500px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: cubic-bezier(0.61, 1, 0.88, 1);
+}
+
+div:nth-of-type(2){
+    transition-timing-function: ease-in;
+}
+
+div:nth-of-type(3){
+    transition-timing-function: ease-out;
+}
+
+div:nth-of-type(4){
+    transition-timing-function:linear;
+}

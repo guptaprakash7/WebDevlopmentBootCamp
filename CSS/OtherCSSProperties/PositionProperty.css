@@ -1,0 +1,14 @@
+div{
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: saddlebrown 3px solid;
+}
+
+
+#static #middle{
+    background-color: rosybrown;
+    position: absolute;
+    top: 150px;
+} 

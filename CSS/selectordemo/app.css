@@ -1,0 +1,79 @@
+/* Universal selctor*/
+ /* * {
+    color: pink;
+}  */
+
+/*element selector*/
+body{
+    background-color: #fae1dd;
+}
+
+button {
+    font-size: 40px;
+    background-color: red !important;
+}
+
+/*selector list*/
+h1,h2{
+    color: royalblue;
+}
+
+#signup{
+    background-color: #540b0e;
+    color: #fff3b0;
+}
+
+span {
+    color: #9c6644
+}
+
+.tag {
+    background-color: #283618;
+    color: #f1faee;
+}
+
+
+span a {
+    color: purple;
+}
+
+ul a {
+    color: green;
+}
+
+h2 + button {
+    background-color: red;
+} 
+
+footer > a {
+    color: indianred;
+}
+
+input[type="password"] {
+    background-color: indigo;
+}
+
+.post a:hover{
+    color:lightseagreen;
+}
+
+.post button:active{
+    color:lightseagreen;
+}
+
+
+.post:nth-of-type(2n){
+    background-color: lime;
+}
+
+h2::first-letter{
+    font-size: 40px;
+}
+
+section::first-line{
+    color:purple;
+}
+
+h2::selection{
+    color:red;
+}

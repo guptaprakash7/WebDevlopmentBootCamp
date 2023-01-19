@@ -1,0 +1,12 @@
+h1 {
+    text-align: right;
+    font-weight: bolder;
+    text-decoration: red underline wavy;
+    letter-spacing: 15px;
+    font-size: 40px;
+    font-family: Avant Garde, Verdana;
+}
+
+p{
+    line-height: 2;
+}
